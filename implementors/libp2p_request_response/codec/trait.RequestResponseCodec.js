@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["forest_libp2p"] = [{"text":"impl&lt;P, RQ, RS&gt; RequestResponseCodec for CborRequestResponse&lt;P, RQ, RS&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;P: ProtocolName + Clone + Send + Sync,<br>&nbsp;&nbsp;&nbsp;&nbsp;RQ: Serialize + DeserializeOwned + Clone + Send + Sync + 'static,<br>&nbsp;&nbsp;&nbsp;&nbsp;RS: Serialize + DeserializeOwned + Clone + Send + Sync + 'static,&nbsp;</span>","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

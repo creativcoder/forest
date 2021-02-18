@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["conformance_tests"] = [{"text":"impl Syscalls for TestSyscalls","synthetic":false,"types":[]}];
+implementors["interpreter"] = [{"text":"impl&lt;'bs, BS, R, C, LB, V, P&gt; Syscalls for DefaultRuntime&lt;'bs, '_, BS, R, C, LB, V, P&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;BS: BlockStore,<br>&nbsp;&nbsp;&nbsp;&nbsp;V: ProofVerifier,<br>&nbsp;&nbsp;&nbsp;&nbsp;P: NetworkParams,<br>&nbsp;&nbsp;&nbsp;&nbsp;R: Rand,<br>&nbsp;&nbsp;&nbsp;&nbsp;C: CircSupplyCalc,<br>&nbsp;&nbsp;&nbsp;&nbsp;LB: LookbackStateGetter&lt;'bs, BS&gt;,&nbsp;</span>","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
